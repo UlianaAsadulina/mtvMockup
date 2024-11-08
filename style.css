@@ -1,0 +1,87 @@
+body {
+   background-color: gainsboro;
+}
+
+.navBar {
+    border: 10px solid aqua;
+    /* height: 70px; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: black;
+
+    
+}
+
+.iconContainer {
+    max-height: 50px;
+    max-width: 50px;
+    background-color: black;
+    display: flex; 
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.headButton {
+    margin-left: 70%;
+}
+
+.myButton {
+    height: 50px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-color: yellow;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+
+.qButton {
+    height: 50px;
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-color: gainsboro;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+
+
+.imageContainer {
+    border: 20px solid rgb(255, 2, 2);
+    background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:ws.mtv.com:3c5aee49-8ca8-463b-bc4b-9354c10e7dd5?quality=0.7&gen=ntrn&format=webp&width=1200"); 
+    height: 700px;
+    width: auto;
+    color: white;
+    justify-content:flex-end;
+
+}
+
+.centerButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.episodeContainer {
+    border: 5px solid black;
+    height: auto;
+    color: white;
+    display: block;
+    justify-content: left;
+
+}
+
+.linkContainer {
+    display: flex;
+    margin: 10px 20px;
+}
+
+.videoLink {
+    border: 2px solid white;
+    padding: 20px;
+}
+.newParamaunt {
+    display: flex;
+}
