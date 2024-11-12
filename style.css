@@ -1,16 +1,15 @@
 body {
    background-color: gainsboro;
+   background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:mtv.com:d2906a58-a278-499a-af13-93a44e50f404?format=webp");
 }
 
 .navBar {
-    border: 10px solid aqua;
-    /* height: 70px; */
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    background-color: black;
-
-    
+    background-color: black;    
 }
 
 .iconContainer {
@@ -23,8 +22,12 @@ body {
     margin-left: 10px;
 }
 
-.headButton {
-    margin-left: 70%;
+.menuButton {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    
 }
 
 .myButton {
@@ -50,27 +53,25 @@ body {
 
 
 .imageContainer {
-    border: 20px solid rgb(255, 2, 2);
-    background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:ws.mtv.com:3c5aee49-8ca8-463b-bc4b-9354c10e7dd5?quality=0.7&gen=ntrn&format=webp&width=1200"); 
-    height: 700px;
-    width: auto;
+    background-image: url("https://images.paramount.tech/uri/mgid:arc:imageassetref:ws.mtv.com:4fb50c45-dcfe-424b-a981-8c95900f1031?quality=0.7&gen=ntrn&format=webp&width=980"); 
+    background-size: 70vw;
+    background-repeat: no-repeat;
     color: white;
-    justify-content:flex-end;
-
+    margin: 30px;
+    padding: 20px;
 }
 
 .centerButton {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    margin: 30px;
 }
 
 .episodeContainer {
-    border: 5px solid black;
     height: auto;
     color: white;
     display: block;
     justify-content: left;
-
 }
 
 .linkContainer {
@@ -79,9 +80,15 @@ body {
 }
 
 .videoLink {
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    margin-right: 20px;
     padding: 20px;
 }
+
 .newParamaunt {
     display: flex;
-}
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    justify-content: space-around;
+} 
